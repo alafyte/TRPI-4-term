@@ -17,9 +17,9 @@ console.log("Задание №1: "+ createNumber(num_arr));
 Кроме того, если число отрицательное, верните . Примечание. Если число кратно и 3, и 5, считайте его только один раз.
 */
 export class Challenge {
-    static solution(number: number) {
+    static solution(number: number) : number {
         if (number < 0) {
-            return ;
+            return;
         }
         else {
             let sum : number = 0;
@@ -59,7 +59,7 @@ function arrayMedian(arr1: number[], arr2: number[]) : number {
 
     if(resultArr.length % 2 == 0)
     {
-        return (resultArr[(resultArr.length / 2)-1] + resultArr[resultArr.length / 2])/2;
+        return (resultArr[(resultArr.length / 2) - 1] + resultArr[resultArr.length / 2]) / 2;
     }
 
     else
