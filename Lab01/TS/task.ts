@@ -55,7 +55,7 @@ console.log("Задание №3: " + moveArray([1, 2, 3, 4, 5, 6, 7, 8], 2));
 function arrayMedian(arr1: number[], arr2: number[]) : number {
     let sum : number = 0;
     let resultArr : number[] = arr1.concat(arr2);
-    resultArr.sort();
+    resultArr.sort((a, b) => { return a - b; });
 
     if(resultArr.length % 2 == 0)
     {
