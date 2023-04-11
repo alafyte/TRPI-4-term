@@ -1,0 +1,19 @@
+.productImage {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.productName {
+    font-family: "Bell MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.productContainer {
+    width: 220px;
+}
+.price {
+    font-family: "Bell MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 16pt;
+}

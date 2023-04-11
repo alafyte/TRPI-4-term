@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.EmptyProducts {
+    font-family: "Bell MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28pt;
+    color: red;
+}
