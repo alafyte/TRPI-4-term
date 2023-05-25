@@ -1,8 +1,8 @@
 import {vacancyActionType, VacancyInfo} from "../types";
-import {defaultState} from "./state";
+import {initialStateVacancies} from "./state";
 
 
-const vacancies = (state: VacancyInfo[] = defaultState, action : vacancyActionType) => {
+const vacancies = (state: VacancyInfo[] = initialStateVacancies, action : vacancyActionType) => {
     switch (action.type) {
         case 'TOGGLE_VACANCY':
             return state.map(v => v.id === action.id ? {...v, isFavorite: !v.isFavorite} : v);

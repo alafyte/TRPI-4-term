@@ -17,33 +17,7 @@ export enum Schedule {
     DistantWork = "Удаленная работа",
 }
 export type func = (...args: any[]) => any;
-//---- Props types
 
-export type VacanciesListPropsType = {
-    vacancies: VacancyInfo[],
-    toggleVacancy: func,
-    selectVacancy: func,
-    doFilter: func,
-}
-export type DescriptionPropsType = {
-    vacancy: VacancyInfo | null,
-    cancelSelection: func,
-}
-export type HeaderPropsType = {
-    currentFilter: string,
-    showAll : func,
-    showFavorites : func,
-}
-export type VacancyPropsType = {
-    OnClickSelect : func,
-    OnClickFav : func,
-    doFilter: func,
-    info : VacancyInfo
-}
-export type FilterPropsType = {
-    currentFilter: string,
-    doFilter : func,
-}
 //---- Models types
 export type VacancyInfo = {
     id: number,
